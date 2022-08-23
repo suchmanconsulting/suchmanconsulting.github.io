@@ -244,8 +244,21 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
-  background: #5029bc;
+.button {
+  background-color:#4682b4; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px
+}
+.button:hover{
+  background-color: blue;
+  color: white;
 }
 
 @media (max-width: 950px) {
