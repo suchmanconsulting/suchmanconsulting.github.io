@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Suchman Consulting
+		</title>
+		<link rel="stylesheet" href="sv01.css">
+	</head>
+	<body>
+		 <img src="fotoebi/30052465.jpg">
+		<div class="header">
+  
+</div>
+<div id="navbar">
+  <a class="active" href="Webpage.html">Homepage</a>
+  <a href="aboutus.html">About us</a>
+  <a href="contactpageeeeeee.html">Contact</a>
+  <a href="services.html">services</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	</body>
+</html>
